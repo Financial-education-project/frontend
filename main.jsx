@@ -1,13 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import BtnDefault from './src/components/BtnDefault/BtnDefault'
-import BtnOutline from './src/components/BtnOutline/BtnOutline'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react';
+import FormInvestment from './src/pages/FormInvestment/FormInvestment';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BtnDefault contentText="Clique aqusszszszssi"/>
-    <br/>
-    <br />
-    <BtnOutline contentText="Clique"/>
+    {/* // 2. Wrap ChakraProvider at the root of your app */}
+    <ChakraProvider>
+      <FormInvestment/>
+    </ChakraProvider>
   </React.StrictMode>,
 )
