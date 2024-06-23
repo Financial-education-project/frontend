@@ -1,0 +1,39 @@
+.container-login-register {
+    @apply bg-[#222222] h-screen flex;
+}
+
+.container-login-register h1 {
+    @apply text-2xl text-white;
+}
+
+.container-login-register p {
+    @apply text-base text-white;
+}
+
+.first-card {
+    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-2xl;
+}
+
+.second-card {
+    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-2xl;
+}
+
+.first-column {
+   @apply bg-[#3c3c3c] w-1/2 flex flex-col items-center justify-center gap-8 py-12;
+}
+
+.second-column {
+    @apply bg-[#5a5a5a] w-1/2 flex flex-col items-center gap-8 py-12;
+}
+
+.second-column form {
+    @apply w-3/4 flex flex-col gap-10;
+}
+
+.inputs-form {
+    @apply flex flex-col gap-4;
+}
+
+.btn-form {
+    @apply flex justify-center;
+}

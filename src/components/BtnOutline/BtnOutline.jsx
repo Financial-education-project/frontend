@@ -4,10 +4,7 @@ export default function BtnOutline(props) {
 
   return (
     <>
-    <div>
-      <button className='btn-outline'>{props.contentText}</button>
-
-    </div>
+      <button className={`btn-outline ${props.btnPaddingOutline ? props.btnPaddingOutline : 'px-5'}`}>{props.contentText}</button>
     </>
   )
 }
