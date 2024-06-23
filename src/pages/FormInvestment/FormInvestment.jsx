@@ -1,16 +1,6 @@
 import './FormInvestment.css';
 import React from 'react';
-import {
-  Flex,
-  Box,
-  Center,
-  FormControl,
-  FormLabel,
-  Input,
-  Select,
-  HStack,
-  Button
-} from "@chakra-ui/react";
+import { Flex, Box, Center, FormControl, FormLabel, Input, Select, HStack, Button } from "@chakra-ui/react";
 
 export default function FormInvestment() {
 
