@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ChakraProvider>
       <FormInvestment/>
     </ChakraProvider>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
