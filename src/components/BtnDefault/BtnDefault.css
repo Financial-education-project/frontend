@@ -1,10 +1,10 @@
 .btn-default {
-    @apply bg-grayButton 
+    @apply bg-[#237271] 
     text-white 
     font-medium 
     py-3
     rounded-xl 
-    hover:bg-grayButtonHover 
-    active:bg-gray-700 
+    hover:bg-[#2b7e7c] 
+    active:bg-[#67aaa9] 
     transition-all;
 }

@@ -4,8 +4,9 @@
   py-3 
   rounded-xl 
   outline 
-  outline-2 
-  hover:bg-grayButtonOutline 
+  outline-2
+  outline-[#38c5c3] 
+  hover:bg-[#61dbd9]
   hover:outline-none
   hover:text-black 
   active:bg-gray-700 

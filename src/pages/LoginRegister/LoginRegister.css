@@ -10,12 +10,16 @@
     @apply text-base text-white;
 }
 
+.card-inner {
+    @apply w-full m-auto flex flex-col items-center justify-center gap-8;
+}
+
 .first-card {
-    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-2xl;
+    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-lg shadow-[#9dfffd42];
 }
 
 .second-card {
-    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-2xl;
+    @apply w-3/4 m-auto flex justify-center rounded-lg shadow-lg shadow-[#9dfffd42];
 }
 
 .first-column {
@@ -24,6 +28,14 @@
 
 .second-column {
     @apply bg-[#5a5a5a] w-1/2 flex flex-col items-center gap-8 py-12;
+}
+
+.card-first-column {
+    @apply rounded-l-lg
+}
+
+.card-second-column {
+    @apply rounded-r-lg
 }
 
 .second-column form {
@@ -36,4 +48,57 @@
 
 .btn-form {
     @apply flex justify-center;
+}
+
+
+@media (max-width: 767px) {
+    .first-card {
+        @apply w-full flex-col items-center;
+    }
+
+    .second-card {
+        @apply w-full flex-col items-center;
+    }
+
+    .first-column {
+        @apply w-full;
+    }
+
+    .second-column {
+        @apply w-full;
+    }
+
+    .card-first-column {
+        @apply rounded-none
+    }
+    
+    .card-second-column {
+        @apply rounded-none
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .first-card {
+        @apply w-full flex-col items-center;
+    }
+
+    .second-card {
+        @apply w-full flex-col items-center;
+    }
+
+    .first-column {
+        @apply w-full;
+    }
+
+    .second-column {
+        @apply w-full;
+    }
+
+    .card-first-column {
+        @apply rounded-none
+    }
+    
+    .card-second-column {
+        @apply rounded-none
+    }    
 }
