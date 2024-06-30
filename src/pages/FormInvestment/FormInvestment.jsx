@@ -70,7 +70,7 @@ export default function FormInvestment() {
 
                 <FormLabel htmlFor="Tefone" color={"white"}>Rentabilidade</FormLabel>
 
-                <Input id="Tefone" type="number" placeholder='Rentabilidade'/>
+                <Input id="Tefone" type="number" placeholder='Rentabilidade' _placeholder={{ color: "white" }} />
 
               </Box>
 
